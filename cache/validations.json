@@ -1,0 +1,52 @@
+{
+  "version": "3.4",
+  "log": [
+    {
+      "@uniswap/lib/contracts/libraries/TransferHelper.sol:TransferHelper": {
+        "src": "@uniswap/lib/contracts/libraries/TransferHelper.sol:6",
+        "version": {
+          "withMetadata": "dcb40576243870ded168df5252ded90160d70150b78cf5bc3979e6100bd1d9bc",
+          "withoutMetadata": "08d24783a787f8a51dea0c166bb6f91a4f0865e02d03d749f102d332e6ead0ff",
+          "linkedWithoutMetadata": "08d24783a787f8a51dea0c166bb6f91a4f0865e02d03d749f102d332e6ead0ff"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false
+        },
+        "solcVersion": "0.8.19"
+      },
+      "contracts/Airdrop.sol:Airdrop": {
+        "src": "contracts/Airdrop.sol:7",
+        "version": {
+          "withMetadata": "ec6022880b2c313cd90cb61501981e5a7ab6ee926e01e735cb2a4feefa54c2fb",
+          "withoutMetadata": "95fd4d0cab4e9ae767bf53ef82eba413081a85b0a64cd46feb866605e552fbef",
+          "linkedWithoutMetadata": "95fd4d0cab4e9ae767bf53ef82eba413081a85b0a64cd46feb866605e552fbef"
+        },
+        "inherit": [],
+        "libraries": [
+          "@uniswap/lib/contracts/libraries/TransferHelper.sol:TransferHelper"
+        ],
+        "methods": [
+          "()",
+          "airdrop(address,address[],uint256[])"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false
+        },
+        "solcVersion": "0.8.19"
+      }
+    }
+  ]
+}
