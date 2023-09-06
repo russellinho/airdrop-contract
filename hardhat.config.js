@@ -24,8 +24,8 @@ module.exports = {
   },
   networks: {
     testnet: {
-      url: 'https://data-seed-prebsc-1-s1.binance.org:8545',
-      chainId: 97,
+      url: 'https://api.avax-test.network/ext/bc/C/rpc',
+      chainId: 43113,
       accounts: ['']
     },
     mainnet: {
